@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Solicitud HTTP</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Solicitud HTTP</h1>
+        <p>funcionamiento de la Web :3</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">Mini Sitio Web</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="solicitud.html">Solicitud HTTP</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="servidor.html">Servidor Web</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="renderizado.html">Renderizado HTML</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="ejemplo.html">Ejemplo Práctico</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <main class="container my-5">
+
+        <div class="card shadow">
+
+            <div class="card-body">
+
+                <h2 class="card-title">Paso 2: El navegador realiza una petición HTTP</h2>
+
+                <img src="img/http.png"
+                    class="img-fluid rounded mx-auto d-block"
+                    alt="Solicitud HTTP">
+
+                <p class="mt-4">
+                    Después de que el usuario ingresa una URL, el navegador envía una solicitud HTTP
+                    al servidor para solicitar la información de la página web.
+                    Los métodos más utilizados son GET y POST.
+                </p>
+
+                <div class="alert alert-info">
+                    <strong>Importante:</strong> HTTP es el protocolo que permite la comunicación
+                    entre el navegador y el servidor.
+                </div>
+
+                <h3>Métodos HTTP</h3>
+
+                <table class="table table-bordered table-striped">
+
+                    <thead class="table-primary">
+
+                        <tr>
+                            <th>Método</th>
+                            <th>Descripción</th>
+                            <th>Cuándo se usa</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td><span class="badge bg-success">GET</span></td>
+                            <td>Solicita información al servidor.</td>
+                            <td>Consultar páginas o recursos.</td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="badge bg-warning text-dark">POST</span></td>
+                            <td>Envía información al servidor.</td>
+                            <td>Enviar formularios o registrar datos.</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+                <h3>Más información</h3>
+
+                <p>
+                    Consulta la documentación oficial de HTTP en MDN.
+                </p>
+
+                <a href="https://developer.mozilla.org/es/docs/Web/HTTP"
+                    target="_blank"
+                    class="btn btn-primary">
+                    Ir a MDN
+                </a>
+
+                <a href="servidor.html"
+                    class="btn btn-success ms-2">
+                    Siguiente
+                </a>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <p class="mb-0">
+            Mini sitio educativo sobre el funcionamiento de la Web
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

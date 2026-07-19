@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Respuesta y Renderizado HTML5</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Respuesta y Renderizado HTML5</h1>
+        <p>funcionamiento de la Web :3</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">Mini Sitio Web</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="solicitud.html">Solicitud HTTP</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="servidor.html">Servidor Web</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="renderizado.html">Renderizado HTML</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="ejemplo.html">Ejemplo Práctico</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <main class="container my-5">
+
+        <div class="card shadow">
+
+            <div class="card-body">
+
+                <h2 class="card-title">
+                    Paso 4:
+                    <span class="badge bg-primary">Renderizado HTML5</span>
+                </h2>
+
+                <img src="img/renderizado.png"
+                     class="img-fluid rounded mx-auto d-block"
+                     alt="Renderizado HTML5">
+
+                <p class="mt-4">
+                    Cuando el navegador recibe la respuesta del servidor,
+                    interpreta el código HTML y construye la página web que
+                    finalmente visualiza el usuario.
+                </p>
+
+                <div class="alert alert-warning">
+                    <strong>Importante:</strong> El navegador interpreta el código HTML
+                    y muestra todos los elementos de la página, como texto,
+                    imágenes, tablas y formularios.
+                </div>
+
+                <h3>Elementos semánticos de HTML5</h3>
+
+                <ul class="list-group mb-4">
+
+                    <li class="list-group-item"><strong>header:</strong> Encabezado de la página.</li>
+
+                    <li class="list-group-item"><strong>nav:</strong> Menú de navegación.</li>
+
+                    <li class="list-group-item"><strong>main:</strong> Contenido principal.</li>
+
+                    <li class="list-group-item"><strong>section:</strong> Agrupa contenido relacionado.</li>
+
+                    <li class="list-group-item"><strong>footer:</strong> Pie de página.</li>
+
+                </ul>
+
+                <h3>Ejemplo de código HTML</h3>
+
+                <pre class="bg-light border rounded p-3">
+&lt;header&gt;
+    &lt;h1&gt;Mi Sitio Web&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;nav&gt;
+    &lt;a href="#"&gt;Inicio&lt;/a&gt;
+&lt;/nav&gt;
+
+&lt;main&gt;
+    &lt;section&gt;
+        &lt;p&gt;Contenido principal&lt;/p&gt;
+    &lt;/section&gt;
+&lt;/main&gt;
+
+&lt;footer&gt;
+    &lt;p&gt;Pie de página&lt;/p&gt;
+&lt;/footer&gt;
+                </pre>
+
+                <a href="ejemplo.html" class="btn btn-primary">
+                    Siguiente: Ejemplo Práctico
+                </a>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <p class="mb-0">
+            Mini sitio educativo sobre el funcionamiento de la Web
+        </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

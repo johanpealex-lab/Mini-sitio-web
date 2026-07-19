@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ejemplo Práctico</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Ejemplo Práctico: Mini Página Renderizada</h1>
+        <p>funcionamiento de la Web :3</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">Mini Sitio Web</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="solicitud.html">Solicitud HTTP</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="servidor.html">Servidor Web</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="renderizado.html">Renderizado HTML</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="ejemplo.html">Ejemplo Práctico</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <main class="container my-5">
+
+        <div class="card shadow">
+
+            <div class="card-body">
+
+                <h2 class="card-title">
+                    Bienvenido a mi página web
+                    <span class="badge bg-success">Ejemplo</span>
+                </h2>
+
+                <img src="img/ejemplo.png"
+                     class="img-fluid rounded mx-auto d-block"
+                     alt="Ejemplo de página web">
+
+                <p class="mt-4">
+                    Este es un ejemplo de una página HTML renderizada por el navegador.
+                    Incluye una imagen, una lista, una tabla y un formulario,
+                    mostrando algunos de los elementos más utilizados en el desarrollo web.
+                </p>
+
+                <div class="alert alert-primary">
+                    Esta página reúne varios elementos HTML que el navegador interpreta para mostrar el contenido al usuario.
+                </div>
+
+                <h3>Lenguajes utilizados en la Web</h3>
+
+                <ul class="list-group mb-4">
+                    <li class="list-group-item">HTML</li>
+                    <li class="list-group-item">JavaScript</li>
+                </ul>
+
+                <h3>Tecnologías Web</h3>
+
+                <table class="table table-bordered table-striped">
+
+                    <thead class="table-primary">
+                        <tr>
+                            <th>Tecnología</th>
+                            <th>Función</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>HTML</td>
+                            <td>Estructura el contenido de la página.</td>
+                        </tr>
+
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Agrega interactividad a la página.</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+                <h3>Formulario de contacto</h3>
+
+                <form>
+
+                    <div class="mb-3">
+
+                        <label for="nombre" class="form-label">
+                            Nombre
+                        </label>
+
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="nombre"
+                            name="nombre">
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label for="correo" class="form-label">
+                            Correo electrónico
+                        </label>
+
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="correo"
+                            name="correo">
+
+                    </div>
+
+                    <button type="submit" class="btn btn-success">
+                        Enviar
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <p class="mb-0">
+            Mini sitio educativo sobre el funcionamiento de la Web
+        </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
