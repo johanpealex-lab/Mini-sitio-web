@@ -1,0 +1,36 @@
+/* Fondo de la página */
+body {
+    background-color: #eef5ff;
+}
+
+/* Encabezado */
+header {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Tarjetas */
+.card {
+    border-radius: 15px;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Títulos */
+h2 {
+    color: #0d6efd;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 30px;
+}
+
+/* Botones */
+.btn {
+    margin-top: 10px;
+}
